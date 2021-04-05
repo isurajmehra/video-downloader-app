@@ -1,0 +1,15 @@
+{
+  "background_color": "blue",
+  "description": "Download website vieos.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "../img/favicon",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Video downloader",
+  "short_name": "VD",
+  "start_url": "/video-downloader"
+}

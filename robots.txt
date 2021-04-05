@@ -1,0 +1,12 @@
+User-agent: *
+Allow: *
+
+# AdsBot
+User-agent: AdsBot-Google
+Allow: *
+
+# Certain social media sites are whitelisted to allow crawlers to access page markup when links to google.com/imgres* are shared. To learn more, please contact images-robots-whitelist@google.com.
+User-agent: Twitterbot
+Allow: /imgres
+
+Sitemap: https://www.video-downloader.com/sitemap.xml

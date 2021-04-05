@@ -1,0 +1,368 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 29 Sep, 2019, 10:27:15 AM
+    Author     : jagamine
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+
+p{
+    color:#6c6c6f;
+    font-size:1em;
+}
+h1,h2,h3,h4,h5,h6{color:#323233;}
+.banner .container .banner-heading h1,
+.banner .container .banner-heading h2{color:#ffffff;}
+.banner-sub-heading h2{color:#ffffff;}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 750px;
+    }
+}
+
+
+/*header design*/
+/* .online-icon {
+    width: 45px;
+    height: 44px;
+    color: white;
+    line-height: 49px;
+    font-size: 2.8rem;
+     border: 1px solid #4a74d8;
+    background-color: #4a74d8;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    margin-top: 4px;
+} */
+.video-downloader-icon img {
+      max-height: 150px;
+      position: absolute;
+      top: -47px;
+}
+
+.navbar-default {
+    background-color: #adabab;
+    border-color: #adabab;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f3e9e9;
+    font-weight: bold;
+}
+
+.navbar-header .navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    color: #100104;
+}
+
+.navbar>.container-fluid .navbar-brand {
+    margin-left: -10px !important;
+}
+
+footer {
+    color: white;
+    background-color: #757575;
+    padding: 25px;
+}
+footer .footer-head h2{
+    color: white;
+}
+
+footer .footer_end a{
+    color: #1d1b1b;
+    padding: 15px;
+}
+
+.social-icons a{
+    color: #1d1b1b;
+    font-size: 35px;
+    padding: 15px;
+}
+.social-icons a:hover{
+    color: #cd3224;
+    text-decoration: none;
+}
+
+footer .made-love .blue-icon {
+    color : blue;
+}
+
+footer .made-love .black-icon {
+    color : rgb(2, 2, 17);
+}
+
+footer .footer-copyright {
+    margin: 7px;
+}
+
+.footer-copyright a{
+    color: white;
+}
+
+body {font-family: serif;}
+
+.youtube-banner {
+  background: url(../img/youtube-background.png) no-repeat fixed center;
+}
+.fb-banner {
+  background: url(../img/facebook-backgrnd.jpg) no-repeat fixed center;
+}
+.insta-banner {
+    background: url(../img/insta-backgrnd1.jpg) no-repeat fixed center;
+  }
+.error-banner {
+  background: url(../img/404-background.jpg) no-repeat fixed center;
+}
+.thanyou-banner {
+  background: url(../img/thank-you.jpg) no-repeat fixed center;
+}
+
+.banner{
+    text-align: center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner span{color: #fff;}
+.banner .banner-backround{
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+}
+.banner-text{
+        padding:200px 0 150px 0;
+    }
+
+/* .banner-heading{
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+    color:#fff;
+} */
+.banner-sub-heading{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    color:#fff;
+}
+
+.btn-banner{
+    padding:5px 20px;
+    border-radius:10px;
+    font-weight:700;
+    line-height:1.5;
+    text-align:center;
+    color:#fff;
+}
+.text-intro{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    padding-top:30px;
+}
+
+#step1 .fa-paste:before, .fa-clipboard:before,
+#step2 .fa-folder-open:before{
+    margin-left: 5px;
+}
+
+#step1 .paste-icon i, #step2 .paste-icon i {
+    width: 57px;
+    height: 57px;
+    color: #cd3224;
+    line-height: 58px;
+    font-size: 30px;
+    border: 2px solid #cd3224;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+#main_step1 .step1_process button {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 5px;
+    width: 80px;
+}
+#main_step1 .step1_process input {
+    width: 80%;
+}
+
+#main_step1 span {
+    font-size: 14px;
+}
+
+#main_step1 .step1_process {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#main_step1 .step1_process .icon {
+  padding: 14px;
+  background: #cc1b1f;
+  font-size: 18px;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+#main_step1 .step1_process .input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+#about .down_step{
+    display: inline-grid;
+    color: #9a8f8f;
+    font-weight: bold;
+}
+
+#main_step1 .step1_process form{
+  display: inline-flex;
+  width: -webkit-fill-available;
+  height: unset;
+}
+
+#main_step1 .step1_process form .form-control {
+  height: unset;
+}
+#insta-video-sec {outline: none;}
+.capitalize {
+    text-transform: capitalize;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.table{
+    cursor: pointer;
+}
+
+#step2 .preview-title {
+  text-align: center;
+  color: #cd3224;
+  font-weight: bold;
+}
+#step2 .download-btn {
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 38px;
+}
+.abt-content{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.abt-content div{
+    margin-top: 15px;
+}
+
+.abt-content div h4{
+    font-weight: bold;
+}
+.abt-content span i{
+    font-size: 40px;
+    color: #cc1b1f;
+}
+
+.abt-content::before {
+    background: rgba(0,0,0,0) radial-gradient(ellipse at center center,rgba(0,0,0,0.2) 0px,rgba(255,255,255,0) 75%) repeat scroll 0 0;
+    height: 1px;
+    left: 50%;
+    margin-left: -40%;
+    position: absolute;
+    width: 80%;
+}
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    border-right: 6px solid #2196F3;
+  }
+
+  .info p{
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px
+  }
+
+.thumbnail_img {
+    text-align: center;
+    margin: 15px;
+}
+
+/* mobile view */
+@media (max-width:500px)
+{
+    .navbar-nav{
+        background-color: #b1acac;
+        border-top: 3px solid #efece4;
+        color: #cec0c0;
+        z-index: 1;
+        margin-top: 5px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 0.7em 1em!important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .banner-text{
+        padding:150px 0 150px 0;
+    }
+    /* .banner-heading{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    } */
+    .banner-sub-heading{
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width:768px){
+    .banner-text{
+        padding:150px 0 150px 0;
+    }
+    .banner-sub-heading{
+        font-size: 23px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width:768px){
+    #main_step1 {
+        margin: 5px 110px !important;
+    }
+    .banner-sub-heading {
+        margin-bottom: 25px;
+    }
+}
