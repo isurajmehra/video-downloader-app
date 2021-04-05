@@ -1,6 +1,6 @@
 {
   "background_color": "blue",
-  "description": "Download website vieos.",
+  "description": "Download website videos.",
   "display": "fullscreen",
   "icons": [
     {
@@ -11,5 +11,5 @@
   ],
   "name": "Video downloader",
   "short_name": "VD",
-  "start_url": "/video-downloader"
+  "start_url": "/video-downloader-app"
 }

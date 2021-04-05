@@ -21,16 +21,16 @@ session_start();
         <meta property="og:description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format" />
         <meta property="og:image" content="app/img/favicon.png" />
 
-        <link rel="stylesheet" href="../video-downloader/app/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../video-downloader-app/app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="../video-downloader/app/css/onlinedown.css" rel="stylesheet">
+        <link href="../video-downloader-app/app/css/onlinedown.css" rel="stylesheet">
         <link rel="shortcut icon" href="app/img/favicon.png"/>
 
-        <script src="/video-downloader/app/js/jquery.min.js"></script>
-        <script src="/video-downloader/app/js/bootstrap.min.js"></script>
+        <script src="/video-downloader-app/app/js/jquery.min.js"></script>
+        <script src="/video-downloader-app/app/js/bootstrap.min.js"></script>
 
-        <script src="/video-downloader/app/js/angular.1.6.9.min.js"></script>
-        <script src="/video-downloader/app/js/onlinedown.js"></script>
+        <script src="/video-downloader-app/app/js/angular.1.6.9.min.js"></script>
+        <script src="/video-downloader-app/app/js/onlinedown.js"></script>
 
     </head>
     <body ng-controller="homeCtrl">

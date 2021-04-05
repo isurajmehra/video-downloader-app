@@ -1,6 +1,6 @@
 <?php
 
-$config["url"] = "http://localhost/video-downloader";
+$config["url"] = "http://localhost/video-downloader-app";
 
 /*
  * Don't change below lines

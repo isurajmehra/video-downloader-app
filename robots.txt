@@ -9,4 +9,4 @@ Allow: *
 User-agent: Twitterbot
 Allow: /imgres
 
-Sitemap: https://www.video-downloader.com/sitemap.xml
+Sitemap: https://www.video-downloader-app.com/sitemap.xml

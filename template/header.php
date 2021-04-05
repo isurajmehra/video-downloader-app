@@ -24,17 +24,17 @@ if ($domain == 'download-facebook-videos') {
         <span class="icon-bar"></span>
       </button>
       <div class="video-downloader-icon">
-        <a href="/video-downloader">
-          <img src="/video-downloader/app/img/video-downloader.png" alt="loading">
+        <a href="/video-downloader-app">
+          <img src="/video-downloader-app/app/img/video-downloader.png" alt="loading">
         </a>
       </div>
     </div>
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-              <li class="<?php echo "$home";?>"><a href="/video-downloader">Home</a></li>
-              <li class="<?php echo "$fbclass";?>"><a href="/video-downloader/download-facebook-videos.php">FB downloader</a></li>
-              <li class="<?php echo "$ytclass";?>"><a href="/video-downloader/download-youtube-videos.php">Youtube downloader</a></li>
-              <li class="<?php echo "$intsclass";?>"><a href="/video-downloader/download-instagram-videos.php">Insta downloader</a></li>
+              <li class="<?php echo "$home";?>"><a href="/video-downloader-app">Home</a></li>
+              <li class="<?php echo "$fbclass";?>"><a href="/video-downloader-app/download-facebook-videos.php">FB downloader</a></li>
+              <li class="<?php echo "$ytclass";?>"><a href="/video-downloader-app/download-youtube-videos.php">Youtube downloader</a></li>
+              <li class="<?php echo "$intsclass";?>"><a href="/video-downloader-app/download-instagram-videos.php">Insta downloader</a></li>
 <!--              <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
                   <ul class="dropdown-menu">
