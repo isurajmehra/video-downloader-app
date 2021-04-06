@@ -14,9 +14,9 @@ if (!empty($_POST["videourl"]) && !empty($_POST["mime"])) {
     $_SESSION['title'] = $_POST["title"];
     $_SESSION['mime'] = $_POST["mime"];
     $_SESSION['ext'] = $_POST["ext"];
-    redirect("../download-instagram-videos.php#step2");
+    redirect("../download-instagram-videos#step2");
     die();
 }  else {
-    redirect("../error.php");
+    redirect("../error");
     die();
 }

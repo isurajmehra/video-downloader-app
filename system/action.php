@@ -17,10 +17,10 @@ if (!empty($_POST["url"]) && getDomain($_POST["url"]) === "facebook.com" && pars
         $_SESSION['mime'] = 'video/mp4';
         $_SESSION['ext'] = 'mp4';
 
-        redirect($config["url"] . "/download-facebook-videos.php#step2");
+        redirect($config["url"] . "/download-facebook-videos#step2");
         die();
     } else {
-        redirect($config["url"] . "/error.php");
+        redirect($config["url"] . "/error");
         die();
     }
 } else if (!empty($_POST["url"]) && parse_url($_POST["url"])["host"] === "m.facebook.com") {
@@ -38,13 +38,13 @@ if (!empty($_POST["url"]) && getDomain($_POST["url"]) === "facebook.com" && pars
         $_SESSION['url-hd-size'] = !empty($hdlink) ? getRemoteFilesize($hdlink) : '';
         $_SESSION['mime'] = 'video/mp4';
         $_SESSION['ext'] = 'mp4';
-        redirect($config["url"] . "/download-facebook-videos.php#step2");
+        redirect($config["url"] . "/download-facebook-videos#step2");
       die();
   } else {
-      redirect($config["url"] . "/error.php");
+      redirect($config["url"] . "/error");
       die();
   }
 } else {
-    redirect($config["url"] . "/error.php");
+    redirect($config["url"] . "/error");
     die();
 }

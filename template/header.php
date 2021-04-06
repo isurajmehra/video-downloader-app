@@ -32,9 +32,9 @@ if ($domain == 'download-facebook-videos') {
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
               <li class="<?php echo "$home";?>"><a href="/video-downloader-app">Home</a></li>
-              <li class="<?php echo "$fbclass";?>"><a href="/video-downloader-app/download-facebook-videos.php">FB downloader</a></li>
-              <li class="<?php echo "$ytclass";?>"><a href="/video-downloader-app/download-youtube-videos.php">Youtube downloader</a></li>
-              <li class="<?php echo "$intsclass";?>"><a href="/video-downloader-app/download-instagram-videos.php">Insta downloader</a></li>
+              <li class="<?php echo "$fbclass";?>"><a href="/video-downloader-app/download-facebook-videos">FB downloader</a></li>
+              <li class="<?php echo "$ytclass";?>"><a href="/video-downloader-app/download-youtube-videos">Youtube downloader</a></li>
+              <li class="<?php echo "$intsclass";?>"><a href="/video-downloader-app/download-instagram-videos">Insta downloader</a></li>
 <!--              <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
                   <ul class="dropdown-menu">

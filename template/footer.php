@@ -7,13 +7,13 @@
         <h2>Tools supports for download your videos</h2>
     </div>
     <div class="social-icons">
-        <a href="/video-downloader-app/download-youtube-videos.php">
+        <a href="/video-downloader-app/download-youtube-videos">
            <i class="fa fa-youtube" aria-hidden="true"></i>
         </a>
-        <a href="/video-downloader-app/download-facebook-videos.php">
+        <a href="/video-downloader-app/download-facebook-videos">
             <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
-        <a href="/video-downloader-app/download-insta-videos.php">
+        <a href="/video-downloader-app/download-insta-videos">
             <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
     </div>
@@ -22,13 +22,13 @@
         <a target="_blank" href="/video-downloader-app">
            <span>Home</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/download-youtube-videos.php">
+        <a target="_blank" href="/video-downloader-app/download-youtube-videos">
            <span>Youtube Downloader</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/download-facebook-videos.php" _target="blank">
+        <a target="_blank" href="/video-downloader-app/download-facebook-videos" _target="blank">
             <span>Facebook Downloader</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/download-insta-videos.php" _target="blank">
+        <a target="_blank" href="/video-downloader-app/download-insta-videos" _target="blank">
             <span>Insta Downloader</span>
         </a>
         <a target="_blank" href="/video-downloader-app/sitemap.xml" _target="blank">

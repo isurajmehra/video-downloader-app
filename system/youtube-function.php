@@ -50,20 +50,20 @@ if (!empty($_POST["url"]) && getDomain($_POST["url"]) === "youtube.com") {
                         // echo '<pre>'; print_r($_SESSION['youtube']); echo '</pre>'; exit;
                         array_multisort(array_column($_SESSION['youtube'], "size_in_bytes"), SORT_DESC, $_SESSION['youtube']);
                          // echo json_encode(['video_title' => $video_title,'video_data' => $video_data]);
-                        redirect("../download-youtube-videos.php#step2");
+                        redirect("../download-youtube-videos#step2");
                         die();
                     } else {
-                        redirect("../error.php");
+                        redirect("../error");
                         die();
                     }
                 } else {
-                    redirect("video-downloader-app/error.php");
+                    redirect("video-downloader-app/error");
                     die();
                 }
             }
         }
 //    }
 } else {
-    redirect("video-downloader-app/error.php");
+    redirect("video-downloader-app/error");
     die();
 }
