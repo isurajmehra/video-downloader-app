@@ -1,6 +1,6 @@
 $(window).on("load", function () {
     if (jQuery('#step2 div').length != '0') {
-        $('html,body').animate({ scrollTop: $("#step2").offset().top }, 'slow');
+        $('html,body').animate({ scrollTop: $("#step2").offset().top-20 }, 'slow');
     }
 });
 
@@ -19,7 +19,8 @@ app.controller('homeCtrl', function ($scope, $rootScope, $window, $timeout) {
             subUrl = url;
             subAction = 'youtube-function.php'
         } else if (web ==='instagram.com') {
-            getInstaVideo(url);
+            subUrl = url;
+            subAction = 'insta-function.php'
         }
 
         if (subAction != '') {

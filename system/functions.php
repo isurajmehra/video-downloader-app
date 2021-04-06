@@ -89,24 +89,34 @@ function getDomain($url)
     return false;
 }
 
+function getInstaVideoUrl($url)
+{
+    $curl_content = url_get_contents($url);
+    $regexVideo = '/property="og:video" content="(.*?)"/';
+    $regexType = '/property="og:video:type" content="(.*?)"/';
+    $regexTitle = '/property="og:title" content="(.*?)"/';
+
+    $returnArray = [];
+    if (preg_match($regexVideo, $curl_content, $match1)) {
+        $returnArray['url'] = $match1[1];
+    }
+
+    if (preg_match($regexType, $curl_content, $match2)) {
+        $returnArray['mime'] = $match2[1];
+        $returnArray['ext'] = "mp4";
+    }
+
+    if (preg_match($regexTitle, $curl_content, $match3)) {
+        $returnArray['title'] = $match3[1];
+    } else {
+        $returnArray['title'] = "video-downloader-app";
+    }
+    return $returnArray;
+}
+
 function redirect($url)
 {
     header('Location: ' . $url);
-}
-
-function curl_get_contents($Url)
-{
-    if (!function_exists('curl_init')) {
-        die('CURL is not installed!');
-    }
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $Url);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $output = curl_exec($ch);
-    curl_close($ch);
-    return $output;
 }
 
 function url_get_contents($url)

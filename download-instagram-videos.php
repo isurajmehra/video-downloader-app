@@ -44,9 +44,10 @@ session_start();
                         <section id="main_step1">
                             <div class="container">
                                 <div class="step1_process">
-                                    <i class="fa fa-instagram icon"></i>
-                                    <input class="input-field" type="text" name="insta_link" ng-model="instaUrl" placeholder="Enter URL" required autofocus>
-                                    <button onclick="document.getElementById('step2').scrollIntoView();getInstaVideo(this.previousSibling.previousSibling.value)">Go!</button>
+                                    <form method="post" action= "system/insta-function.php" enctype="multipart/form-data">
+                                        <i class="fa fa-instagram icon"></i>
+                                        <input name="url" pattern="https?://.+" type="url" class="form-control" placeholder="Enter URL" required autocomplete="on" autofocus>
+                                        <button type="submit">Go!</button>
                                     </form>
                                 </div>
                                 <span>Paste your insta video link here and we will give you the best quality available for your videos to download</span>
@@ -81,11 +82,11 @@ session_start();
                 <div class="text-center" id="main_step1">
                     <span>Paste your instagram link</span>
                     <div class="step1_process">
-                      <div class="step1_process">
-                          <i class="fa fa-instagram icon"></i>
-                          <input class="input-field" type="text" name="insta_link" ng-model="instaUrl" placeholder="Enter URL">
-                          <button onclick="document.getElementById('step2').scrollIntoView();getInstaVideo(this.previousSibling.previousSibling.value)">Go!</button>
-                      </div>
+                        <form method="post" action= "system/insta-function.php" enctype="multipart/form-data">
+                            <i class="fa fa-instagram icon"></i>
+                            <input name="url" pattern="https?://.+" type="url" class="form-control" placeholder="Enter URL" required autocomplete="on" autofocus>
+                            <button type="submit">Go!</button>
+                        </form>
                     </div>
                     <span class="text-center">Paste your instagram video link here and we will give you the best quality available for your videos to download</span>
                 </div>
