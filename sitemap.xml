@@ -5,27 +5,27 @@
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>http://video-downloader-app.com/download-facebook-videos.php</loc>
+        <loc>http://video-downloader-app.com/download-facebook-videos</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://video-downloader-app.com/download-youtube-videos.php.php</loc>
+        <loc>http://video-downloader-app.com/download-youtube-videos</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://video-downloader-app.com/download-instagram-videos.php</loc>
+        <loc>http://video-downloader-app.com/download-instagram-videos</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://video-downloader-app.com/error.php</loc>
+        <loc>http://video-downloader-app.com/error</loc>
         <changefreq>yearly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>http://video-downloader-app.com/thankyou.php</loc>
+        <loc>http://video-downloader-app.com/thankyou</loc>
         <changefreq>yearl</changefreq>
         <priority>0.1</priority>
     </url>

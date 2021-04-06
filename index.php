@@ -7,7 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download videos from websites | Download videos from link | Online videos | Video downloader</title>
+        <title>Download videos from websites | Download videos from link | Online videos by link | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format">
         <meta name="keywords" content="download youtube,facebook,insta,videos in websites,using url link,from">

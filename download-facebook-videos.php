@@ -8,10 +8,10 @@ session_start();
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download facebook videos | FB videos downloader in HD | Online fb videos | Video Downloader App</title>
+        <title>Download facebook videos | FB videos downloader HD | Online fb videos | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download facebook videos in online with best quality, You can find videos with HD, mp4 and web format">
-        <meta name="keywords" content="download facebook videos,facebook downloader,videos in HD, fb videos">
+        <meta name="keywords" content="download facebook videos,facebook downloader,videos in HD,fb videos">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

@@ -7,8 +7,8 @@
     <head>
         <title>404 Error | video-downloader-app</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Download youtube videos in online with best quality">
-        <meta name="keywords" content="download,youtube downloader,video downloader">
+        <meta name="description" content="Download videos in online with best quality">
+        <meta name="keywords" content="download,youtube,facebook,insta,website,videos,downloader,video downloader">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

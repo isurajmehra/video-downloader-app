@@ -8,10 +8,10 @@ session_start();
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download instagram videos | Insta downloader in HD | Online insta videos | video-downloader-app</title>
+        <title>Download instagram videos | Insta downloader HD | Online insta videos by link | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download instagram videos in online with best quality, You can find videos with HD, mp4 and web format">
-        <meta name="keywords" content="download instagram videos,instagram downloader,videos in HD, Insta videos">
+        <meta name="keywords" content="download instagram videos,instagram downloader,videos in HD,insta videos">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
