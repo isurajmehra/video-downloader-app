@@ -1,6 +1,6 @@
 <?php
-require_once("config.php");
 session_start();
+require_once("config.php");
 if (!empty($_POST["url"]) && getDomain($_POST["url"]) === "facebook.com" && parse_url($_POST["url"])["path"] != "/story.php") {
     $data = url_get_contents($_POST["url"]);
     $hdlink = hdLink($data);
