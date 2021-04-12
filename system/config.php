@@ -1,6 +1,10 @@
 <?php
 
-$config["url"] = "http://localhost/video-downloader-app";
+$config["url"] = "http://video-downloader-app.com";
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    $config["url"] = "http://localhost/video-downloader-app";
+}
+
 
 /*
  * Don't change below lines

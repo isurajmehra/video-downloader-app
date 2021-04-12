@@ -57,13 +57,13 @@ if (!empty($_POST["url"]) && getDomain($_POST["url"]) === "youtube.com") {
                         die();
                     }
                 } else {
-                    redirect("video-downloader-app/error");
+                    redirect("/error");
                     die();
                 }
             }
         }
 //    }
 } else {
-    redirect("video-downloader-app/error");
+    redirect("/error");
     die();
 }
