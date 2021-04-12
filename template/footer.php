@@ -1,37 +1,37 @@
 <footer class="container-fluid text-center">
     <div class="video-downloader-icon-footer">
-        <img src="/video-downloader-app/app/img/video-downloader-small.png" alt="loading">
+        <img src="/app/img/video-downloader-small.png" alt="loading">
     </div>
 
     <div class="footer-head">
         <h2>Tools supports for download your videos</h2>
     </div>
     <div class="social-icons">
-        <a href="/video-downloader-app/download-youtube-videos">
+        <a href="/download-youtube-videos">
            <i class="fa fa-youtube" aria-hidden="true"></i>
         </a>
-        <a href="/video-downloader-app/download-facebook-videos">
+        <a href="/download-facebook-videos">
             <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
-        <a href="/video-downloader-app/download-insta-videos">
+        <a href="/download-insta-videos">
             <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
     </div>
 
     <div class="footer_end">
-        <a target="_blank" href="/video-downloader-app">
+        <a target="_blank" href="">
            <span>Home</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/download-youtube-videos">
+        <a target="_blank" href="/download-youtube-videos">
            <span>Youtube Downloader</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/download-facebook-videos" _target="blank">
+        <a target="_blank" href="/download-facebook-videos" _target="blank">
             <span>Facebook Downloader</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/download-insta-videos" _target="blank">
+        <a target="_blank" href="/download-insta-videos" _target="blank">
             <span>Insta Downloader</span>
         </a>
-        <a target="_blank" href="/video-downloader-app/sitemap.xml" _target="blank">
+        <a target="_blank" href="/sitemap.xml" _target="blank">
             <span>SiteMap</span>
         </a>
     </div>
