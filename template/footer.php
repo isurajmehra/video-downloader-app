@@ -42,7 +42,7 @@
 
     <div class="made-love text-center">
         <span>
-            <i class="fa fa-heart blue-icon" aria-hidden="true"></i> Made with
+            <i class="fa fa-heart blue-icon" aria-hidden="true"></i> Test Made with
             <i class="fa fa-heart black-icon" aria-hidden="true"></i>
         </span>
     </div>
