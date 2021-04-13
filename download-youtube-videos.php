@@ -22,19 +22,19 @@ error_reporting(E_ALL);
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-title" content="Jaga">
 
-        <link rel="stylesheet" href="../app/css/bootstrap.min.css">
+        <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="../app/css/addtohomescreen.css">
-        <link href="../app/css/onlinedown.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="app/css/addtohomescreen.css">
+        <link href="app/css/onlinedown.css" rel="stylesheet">
         <link rel="shortcut icon" href="app/img/favicon.png"/>
         <link rel="manifest" href="app/js/manifest.webmanifest">
 
-        <script src="/app/js/jquery.min.js"></script>
-        <script src="/app/js/bootstrap.min.js"></script>
+        <script src="app/js/jquery.min.js"></script>
+        <script src="app/js/bootstrap.min.js"></script>
 
-        <script src="/app/js/angular.1.6.9.min.js"></script>
-        <script src="/app/js/addtohomescreen.js"></script>
-        <script src="/app/js/onlinedown.js"></script>
+        <script src="app/js/angular.1.6.9.min.js"></script>
+        <script src="app/js/addtohomescreen.js"></script>
+        <script src="app/js/onlinedown.js"></script>
 
 
     </head>

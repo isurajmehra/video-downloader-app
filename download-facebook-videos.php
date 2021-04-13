@@ -15,16 +15,16 @@ session_start();
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="../app/css/bootstrap.min.css">
+        <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="../app/css/onlinedown.css" rel="stylesheet">
+        <link href="app/css/onlinedown.css" rel="stylesheet">
         <link rel="shortcut icon" href="app/img/favicon.png"/>
 
-        <script src="/app/js/jquery.min.js"></script>
-        <script src="/app/js/bootstrap.min.js"></script>
+        <script src="app/js/jquery.min.js"></script>
+        <script src="app/js/bootstrap.min.js"></script>
 
-        <script src="/app/js/angular.1.6.9.min.js"></script>
-        <script src="/app/js/onlinedown.js"></script>
+        <script src="app/js/angular.1.6.9.min.js"></script>
+        <script src="app/js/onlinedown.js"></script>
 
     </head>
     <body ng-controller="fbCtrl">

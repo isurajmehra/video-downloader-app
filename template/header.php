@@ -25,16 +25,16 @@ if ($domain == 'download-facebook-videos') {
       </button>
       <div class="video-downloader-icon">
         <a href="/">
-          <img src="/app/img/video-downloader.png" alt="loading">
+          <img src="app/img/video-downloader.png" alt="loading">
         </a>
       </div>
     </div>
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
               <li class="<?php echo "$home";?>"><a href="/">Home</a></li>
-              <li class="<?php echo "$fbclass";?>"><a href="/download-facebook-videos">FB downloader</a></li>
-              <li class="<?php echo "$ytclass";?>"><a href="/download-youtube-videos">Youtube downloader</a></li>
-              <li class="<?php echo "$intsclass";?>"><a href="/download-instagram-videos">Insta downloader</a></li>
+              <li class="<?php echo "$fbclass";?>"><a href="download-facebook-videos">FB downloader</a></li>
+              <li class="<?php echo "$ytclass";?>"><a href="download-youtube-videos">Youtube downloader</a></li>
+              <li class="<?php echo "$intsclass";?>"><a href="download-instagram-videos">Insta downloader</a></li>
 <!--              <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
                   <ul class="dropdown-menu">
