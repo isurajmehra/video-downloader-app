@@ -22,7 +22,7 @@
         <a target="_blank" href="">
            <span>Home</span>
         </a>
-        <a target="_blank" href="download-youtube-videos">
+        <a target="_blank" href="/download-youtube-videos">
            <span>Youtube Downloader</span>
         </a>
         <a target="_blank" href="download-facebook-videos" _target="blank">
@@ -42,7 +42,7 @@
 
     <div class="made-love text-center">
         <span>
-            <i class="fa fa-heart blue-icon" aria-hidden="true"></i> Test Made with
+            <i class="fa fa-heart blue-icon" aria-hidden="true"></i> Made with
             <i class="fa fa-heart black-icon" aria-hidden="true"></i>
         </span>
     </div>
