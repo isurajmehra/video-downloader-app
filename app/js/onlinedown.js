@@ -39,7 +39,6 @@ app.controller('homeCtrl', function ($scope, $rootScope, $window, $timeout) {
 });
 
 app.controller('youtubeCtrl', function ($scope, $http, $window, $timeout) {
-  addToHomescreen();
     $scope.downloadVideo = function (key) {
         window.location.href = 'system/functions.php?fname=downloadYoutubeVid&key=' + key;
         $timeout(function () { window.location.href = 'thankyou.php'; }, 3000);

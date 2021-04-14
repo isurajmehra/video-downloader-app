@@ -7,7 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download videos from websites | Download videos from link | Online videos by link | video-downloader-app</title>
+        <title>Download videos from websites youtube facebook and instagram | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format">
         <meta name="keywords" content="download youtube,facebook,insta,videos in websites,using url link,from">
@@ -59,7 +59,7 @@ session_start();
                             </div>
                         </section>
                         <div class="banner-sub-heading">
-                            <h2>Get your amazing videos with best</h2>
+                            <span>Get your amazing videos with best</span>
                         </div>
                         <button onclick="document.getElementById('how').scrollIntoView();" type="button" class="btn btn-warning text-dark btn-banner">Try How ?</button>
                     </div>
@@ -70,7 +70,7 @@ session_start();
             <section id="about">
                 <div class="container">
                     <div class="text-intro" id="how">
-                        <h1>How to download videos from any website</h1>
+                        <h2>How to download videos from any website</h2>
                         <p>Here you Go.., Paste your website URL and you will get best quality, By using few steps to get your website videos on your local storage.</p>
                         <div class="down_step">
                             <span>1. Copy your website URL (In share just copy the link)</span>
@@ -97,7 +97,7 @@ session_start();
             </section>
 
             <div class="info">
-                <p><strong>NOTE :</strong><span>Private videos of any website should not downloaded here...</span></p>
+                <p><strong>NOTE : </strong><span>Private videos of any website should not downloaded here...</span></p>
             </div>
 
         </div>

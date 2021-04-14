@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download youtube videos | Youtube videos downloader in HD | Free online youtube videos | video-downloader-app</title>
+        <title>Download youtube videos | Youtube downloader in HD | Free downloader | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download youtube videos in online with best quality, You can find videos with 720P, HD, mp4 and webM format">
         <meta name="keywords" content="download youtube videos online,downloader,from,link,url">
@@ -24,7 +24,6 @@ error_reporting(E_ALL);
 
         <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="app/css/addtohomescreen.css">
         <link href="app/css/onlinedown.css" rel="stylesheet">
         <link rel="shortcut icon" href="app/img/favicon.png"/>
         <link rel="manifest" href="app/js/manifest.webmanifest">
@@ -33,7 +32,6 @@ error_reporting(E_ALL);
         <script src="app/js/bootstrap.min.js"></script>
 
         <script src="app/js/angular.1.6.9.min.js"></script>
-        <script src="app/js/addtohomescreen.js"></script>
         <script src="app/js/onlinedown.js"></script>
         <script data-ad-client="ca-pub-2911878521663469" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -66,7 +64,7 @@ error_reporting(E_ALL);
                             </div>
                         </section>
                         <div class="banner-sub-heading">
-                            <h2>Get your amazing youtube videos with best</h2>
+                            <span>Get your amazing youtube videos with best</span>
                         </div>
                         <button onclick="document.getElementById('how').scrollIntoView();" type="button" class="btn btn-warning text-dark btn-banner">Try How ?</button>
                     </div>
@@ -77,7 +75,7 @@ error_reporting(E_ALL);
             <section id="about">
                 <div class="container">
                     <div class="text-intro" id="how">
-                        <h1>How to download youtube videos</h1>
+                        <h2>How to download youtube videos</h2>
                         <p>Here you Go.., you can use youtube video link to download your amazing videos in online, By using few steps to get your videos on your local storage.</p>
                         <div class="down_step">
                             <span>1. Copy your video link (In share just copy the link)</span>
@@ -106,7 +104,7 @@ error_reporting(E_ALL);
             </section>
 
             <div class="info">
-                <p><strong>NOTE :</strong><span>Private videos of any website should not downloaded here...</span></p>
+                <p><strong>NOTE : </strong><span>Private videos of any website should not downloaded here...</span></p>
             </div>
 
             <section id="step2">
