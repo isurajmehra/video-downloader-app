@@ -8,14 +8,14 @@ session_start();
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download facebook videos | FB downloader HD | Online fb videos | video-downloader-app</title>
+        <title>Download facebook videos | online fb videos downloader HD | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download facebook videos in online with best quality, You can find videos with HD, mp4 and web format">
         <meta name="keywords" content="download facebook videos,facebook downloader,videos in HD,fb videos">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://video-downloader-app.com/download-facebook-videos" rel="canonical">
+        <link href="https://www.video-downloader-app.com/download-facebook-videos" rel="canonical">
         <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="app/css/onlinedown.css" rel="stylesheet">
@@ -41,7 +41,7 @@ session_start();
                 <div class="container">
                     <div class="banner-text">
                         <div class="banner-heading">
-                            <h1>Download facebook videos online with best quality</h1>
+                            <h1>Download facebook videos online downloader web app</h1>
                         </div>
                         <section id="main_step1">
                             <div class="container">
