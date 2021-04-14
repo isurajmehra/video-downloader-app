@@ -42,7 +42,7 @@
                           <h2>or</h2>
                           <h2>This video is private.</h2>
                         </div>
-                        <button type="button" class="btn btn-warning text-dark btn-banner" onclick="location.href='http://video-downloader-app.com/';">Try Another ?</button>
+                        <button type="button" class="btn btn-warning text-dark btn-banner" onclick="location.href='https://video-downloader-app.com/';">Try Another ?</button>
                     </div>
                 </div>
             </div>

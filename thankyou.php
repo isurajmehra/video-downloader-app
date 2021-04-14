@@ -39,7 +39,7 @@
                         <div class="banner-heading">
                             <h1>Thanks for downloading video here... <br>Hope we see agian <br>&#9996;</h1>
                         </div>
-                        <button type="button" class="btn btn-warning text-dark btn-banner" onclick="location.href='http://video-downloader-app.com';">Try Another ?</button>
+                        <button type="button" class="btn btn-warning text-dark btn-banner" onclick="location.href='https://video-downloader-app.com';">Try Another ?</button>
                     </div>
                 </div>
             </div>

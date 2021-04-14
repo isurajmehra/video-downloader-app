@@ -1,6 +1,6 @@
 <footer class="container-fluid text-center">
     <div class="video-downloader-icon-footer">
-        <img src="app/img/video-downloader-small.png" alt="loading">
+        <img src="app/img/video-downloader-small.png" alt="loading" title="video downloader">
     </div>
 
     <div class="footer-head">
@@ -37,7 +37,7 @@
     </div>
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2021 Copyright:
-        <a href="http://video-downloader-app.com/"> video-downloader-app.com</a>
+        <a href="https://video-downloader-app.com/"> video-downloader-app.com</a>
     </div>
 
     <div class="made-love text-center">
