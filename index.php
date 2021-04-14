@@ -31,6 +31,7 @@ session_start();
 
         <script src="app/js/angular.1.6.9.min.js"></script>
         <script src="app/js/onlinedown.js"></script>
+        <script data-ad-client="ca-pub-2911878521663469" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     </head>
     <body ng-controller="homeCtrl">

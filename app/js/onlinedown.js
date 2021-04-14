@@ -92,7 +92,7 @@ function getInstaVideo(url) {
                 document.body.appendChild(f);
                 f.submit();
             }).catch(function() {
-                window.location.href = 'error.php';
+                window.location.href = 'error';
             });
     }
 }
