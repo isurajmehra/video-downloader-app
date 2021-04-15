@@ -25,7 +25,7 @@ if ($domain == 'download-facebook-videos') {
       </button>
       <div class="video-downloader-icon">
         <a href="/">
-          <img src="app/img/video-downloader.png" alt="loading">
+          <img src="app/img/video-downloader.png" alt="loading" title="video downloader app">
         </a>
       </div>
     </div>

@@ -116,7 +116,7 @@ error_reporting(E_ALL);
                     </div>
 
                     <div class="thumbnail_img">
-                        <img src="<?php echo $_SESSION['thumbnail']?>" alt="thumbnail" height="200" width="200">
+                        <img src="<?php echo $_SESSION['thumbnail']?>" alt="thumbnail" height="200" width="200" title="youtube downloader">
                     </div>
 
                     <div class="row">
