@@ -162,6 +162,9 @@ body {font-family: serif;}
     font-size: 30px;
     color:#fff;
 }
+.banner-sub-heading h3 {
+    color:#fff;
+}
 
 .btn-banner{
     padding:5px 20px;

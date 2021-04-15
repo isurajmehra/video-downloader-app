@@ -56,7 +56,7 @@ session_start();
                             </div>
                         </section>
                         <div class="banner-sub-heading">
-                            <span>Get your amazing instagram videos with best</span>
+                            <h3>Get your amazing instagram videos with best</h3>
                         </div>
                         <button onclick="document.getElementById('how').scrollIntoView();" type="button" class="btn btn-warning text-dark btn-banner">Try How ?</button>
                     </div>
