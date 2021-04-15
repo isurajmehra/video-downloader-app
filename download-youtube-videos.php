@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download youtube videos | Youtube downloader in HD | Free downloader | video-downloader-app</title>
+        <title>Download youtube videos | video downloader Free | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download youtube videos in online with best quality, You can find videos with 720P, HD, mp4 and webM format">
         <meta name="keywords" content="download youtube videos online,downloader,from,link,url">
@@ -22,6 +22,7 @@ error_reporting(E_ALL);
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-title" content="Jaga">
 
+        <link href="https://www.video-downloader-app.com/download-youtube-videos" rel="canonical">
         <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="app/css/onlinedown.css" rel="stylesheet">

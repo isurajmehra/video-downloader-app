@@ -7,7 +7,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en-US" ng-app="app">
     <head>
-        <title>Download videos from websites youtube facebook and instagram | video-downloader-app</title>
+        <title>Download videos youtube facebook insta website | video-downloader-app</title>
         <meta charset="UTF-8">
         <meta name="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format">
         <meta name="keywords" content="download youtube,facebook,insta,videos in websites,using url link,from">
@@ -21,6 +21,7 @@ session_start();
         <meta property="og:description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format" />
         <meta property="og:image" content="app/img/favicon.png" />
 
+        <link href="https://www.video-downloader-app.com" rel="canonical">
         <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="app/css/onlinedown.css" rel="stylesheet">
