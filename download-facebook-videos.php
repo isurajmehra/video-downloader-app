@@ -10,7 +10,7 @@ session_start();
     <head>
         <title>Download facebook videos online fb videos downloader | video-downloader-app</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Download facebook videos in online with best quality, You can find videos with HD, mp4 and web format">
+        <meta name="description" content="Download facebook videos in online with best quality, You can find videos with HD, mp4 and web format | video-downloader-app">
         <meta name="keywords" content="download facebook videos,facebook downloader,videos in HD,fb videos">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,7 +83,7 @@ session_start();
                     <i class="fa fa-paste"></i>
                 </div>
                 <div class="text-center" id="main_step1">
-                    <span>Paste your facebook link</span>
+                    <span>Facebook video link</span>
                     <div class="step1_process">
                       <div class="step1_process">
                         <form method="post" action="system/action.php" enctype="multipart/form-data">
@@ -93,7 +93,7 @@ session_start();
                         </form>
                       </div>
                     </div>
-                    <span class="text-center">Paste your facebook video link here and we will give you the best quality available for your videos to download</span>
+                    <span class="text-center">Enter facebook video link here and we will give you the best quality available for your videos to download</span>
                 </div>
             </section>
 

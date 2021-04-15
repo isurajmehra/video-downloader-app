@@ -10,7 +10,7 @@ error_reporting(E_ALL);
     <head>
         <title>Download youtube videos | video downloader Free | video-downloader-app</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Download youtube videos in online with best quality, You can find videos with 720P, HD, mp4 and webM format">
+        <meta name="description" content="Download youtube videos in online with best quality, You can find videos with 720P, HD, mp4 and webM format | video-downloader-app">
         <meta name="keywords" content="download youtube videos online,downloader,from,link,url">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,7 +92,7 @@ error_reporting(E_ALL);
                     <i class="fa fa-paste"></i>
                 </div>
                 <div class="text-center" id="main_step1">
-                    <span>Paste your youTube link</span>
+                    <span>youTube video link</span>
                     <div class="step1_process">
                     <form method="post" action= "system/youtube-function.php" enctype="multipart/form-data">
                         <i class="fa fa-youtube icon"></i>

@@ -9,12 +9,12 @@ session_start();
     <head>
         <title>Download videos youtube facebook insta website | video-downloader-app</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format">
+        <meta name="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format  | video-downloader-app">
         <meta name="keywords" content="download youtube,facebook,insta,videos in websites,using url link,from">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta itemprop="name" content="Download Video from website YouTube, Facebook, Insta with free online" />
-        <meta itemprop="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format" />
+        <meta itemprop="description" content="Download youtube, facebook, insta or other socialmedia videos in online with best quality, Using url you can find videos with HD, mp4 and web format | video-downloader-app" />
         <meta itemprop="image" content="app/img/favicon.png" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Download Video from website, YouTube, Facebook, Insta with free online" />
@@ -87,13 +87,13 @@ session_start();
                     <i class="fa fa-paste"></i>
                 </div>
                 <div class="text-center" id="main_step1">
-                    <span>Paste your youTube link</span>
+                    <span>Website video link</span>
                     <div class="step1_process">
                         <i class="fa fa-globe icon" aria-hidden="true"></i>
                         <input class="input-field" type="text" name="youtube_link" ng-model="webUrl" placeholder="Enter URL">
                         <button ng-click="findWebsite(webUrl)">Go!</button>
                     </div>
-                    <span class="text-center">Paste your youtube video link here and we will give you the best quality available for your videos to download</span>
+                    <span class="text-center">Enter website video link here and we will give you the best quality available for your videos to download</span>
                 </div>
             </section>
 

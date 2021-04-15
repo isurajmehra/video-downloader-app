@@ -10,7 +10,7 @@ session_start();
     <head>
         <title>Download instagram videos online | Insta downloader | video-downloader-app</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Download instagram videos in online with best quality, You can find videos with HD, mp4 and web format">
+        <meta name="description" content="Download instagram videos in online with best quality, You can find videos with HD, mp4 and web format | video-downloader-app">
         <meta name="keywords" content="download instagram videos,instagram downloader,videos in HD,insta videos">
         <meta name="author" content="Jaga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,7 +82,7 @@ session_start();
                     <i class="fa fa-paste"></i>
                 </div>
                 <div class="text-center" id="main_step1">
-                    <span>Paste your instagram link</span>
+                    <span>Instagram video link</span>
                     <div class="step1_process">
                         <form method="post" action= "system/insta-function.php" enctype="multipart/form-data">
                             <i class="fa fa-instagram icon"></i>
@@ -90,7 +90,7 @@ session_start();
                             <button type="submit">Go!</button>
                         </form>
                     </div>
-                    <span class="text-center">Paste your instagram video link here and we will give you the best quality available for your videos to download</span>
+                    <span class="text-center">Enter instagram video link here and we will give you the best quality available for your videos to download</span>
                 </div>
             </section>
 
