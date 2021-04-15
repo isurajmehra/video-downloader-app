@@ -61,7 +61,7 @@ error_reporting(E_ALL);
                                         <button type="submit">Go!</button>
                                     </form>
                                 </div>
-                                <span>Paste your youtube video link here and we will give you the best quality available for your videos to download</span>
+                                <span><b>Paste your youtube video link here and we will give you the best quality available for your videos to download</b></span>
                             </div>
                         </section>
                         <div class="banner-sub-heading">

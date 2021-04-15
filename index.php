@@ -56,7 +56,7 @@ session_start();
                                     <input class="input-field" type="text" name="youtube_link" ng-model="webUrl" placeholder="Enter URL">
                                     <button ng-click="findWebsite(webUrl)">Go!</button>
                                 </div>
-                                <span>Paste your website url here and we will give you the best quality available for your videos to download</span>
+                                <span><b>Paste your website url here and we will give you the best quality available for your videos to download</b></span>
                             </div>
                         </section>
                         <div class="banner-sub-heading">
